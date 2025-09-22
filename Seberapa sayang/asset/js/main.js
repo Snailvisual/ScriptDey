@@ -12,7 +12,7 @@ $(document).on('click', '#tombolPopup', function (e) {
     e.preventDefault();
     Swal.fire({
         icon: 'info',
-        title: 'Halo Pacarku',
+        title: 'Halo Amadea ku Tersayang!',
         text: 'Aku ada pertanyaan nih buat kamu',
         showClass: {
             popup: 'animate__animated animate__tada'
@@ -22,7 +22,7 @@ $(document).on('click', '#tombolPopup', function (e) {
         }
     }).then(() => {
         Swal.fire({
-            title: 'Jawab yang jujur ya',
+            title: 'Jawab yang jujur ya tapiii :D',
             showClass: {
                 popup: 'animate__animated animate__jackInTheBox'
             },
@@ -42,7 +42,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                 }
             }).then(() => {
                 Swal.fire({
-                    title: 'Masukkin nama kamu dulu dong',
+                    title: 'Masukkin nama kamu dulu coba, hehe',
                     showClass: {
                         popup: 'animate__animated animate__jackInTheBox'
                     },
